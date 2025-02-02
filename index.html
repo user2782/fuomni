@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>fuomni</title>
+
+  <style>
+    /* General Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #181818; /* Darker black as per the image */
+      color: #f5f5f5; /* Softer white for the text */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      width: 100%; /* Ensure full width usage */
+      padding: 0 20px; /* Prevent content touching edges */
+      overflow-x: hidden; /* Avoid horizontal scrollbars */
+    }
+
+    .container {
+      max-width: 1200px;
+      text-align: center;
+      padding: 20px;
+      margin-top: 0px;
+    }
+
+    .title {
+      font-size: 3rem;
+      font-weight: normal;
+      margin-bottom: 25px;
+    }
+
+    .tagline {
+      font-size: 1.0rem;
+      font-style: italic;
+      color: #d3d3d3; /* Slightly grayish for the tagline */
+      margin-bottom: 220px;
+    }
+
+    .subtitle {
+      font-size: 1.25rem;
+      text-transform: none;
+      color: #e0e0e0; /* A softer white for subtitles */
+      font-weight: normal !important;
+    }
+
+    .subsidiaries {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(250px, 1fr)); /* Adjust column width */
+      gap: 10px; /* Space between grid items */
+      font-size: 1rem;
+      text-align: center;
+      margin-top: 25px;
+      font-weight: normal;
+    }
+
+    .subsidiaries a {
+      color: #f5f5f5; /* Default text color */
+      text-decoration: none; /* Remove underline */
+      transition: color 0.3s ease; /* Smooth hover transition */
+    }
+
+    .subsidiaries a:hover {
+      color: #674DC3; /* Purple text on hover */
+    }
+
+    .subsidiaries div {
+      white-space: nowrap; /* Prevent long text wrapping */
+      overflow: hidden; /* Prevent overflow if text exceeds grid area */
+      text-overflow: ellipsis; /* Add ellipsis for long text */
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">fuomni enterprise</h1>
+    <p class="tagline">"diverse range of marketplaces with a consumer centric focus"</p>
+    <h2 class="subtitle">Subsidiaries (in progress)</h2>
+    <div class="subsidiaries">
+      <div><a href="https://ordinary-seer-944.notion.site/aetherkeys-145e9f8d25a2801c8747c6f2248c2a1f" target="_blank">aetherkeys</a></div>
+      <div><a href="https://axisflows.com" target="_blank">axisflows</a></div>
+      <div><a href="https://pawntech.ca" target="_blank">pawntech</a></div>
+      <div><a href="https://unboxedcafe.com" target="_blank">unboxed cafe</a></div>
+      <div><a href="https://shrecoaquatics.com" target="_blank">shreco aquatics</a></div>
+      <div><a href="https://mtclothing.com" target="_blank">[mt] clothing</a></div>
+      <div><a href="https://arcustechnologies.com" target="_blank">arcus technologies</a></div>
+      <div><a href="https://icefishcooling.com" target="_blank">icefish cooling</a></div>
+      <div><a href="https://urstore.com" target="_blank">urstore</a></div>
+    </div>
+  </div>
+</body>
+</html>
